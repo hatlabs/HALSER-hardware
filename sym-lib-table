@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "HALMET")(type "KiCad")(uri "${KIPRJMOD}/HALMET.kicad_sym")(options "")(descr ""))
+  (lib (name "HALSER")(type "KiCad")(uri "${KIPRJMOD}/HALSER.kicad_sym")(options "")(descr ""))
 )
