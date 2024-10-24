@@ -49,10 +49,16 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": true,
-          "min_clearance": 0.25
+          "min_clearance": 0.0
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
@@ -181,7 +187,6 @@
         0.0,
         0.2,
         0.25,
-        0.261112,
         0.4,
         0.6,
         0.8,
@@ -253,9 +258,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "multiple_net_names|1892300|1193800|a36c53e8-4cef-45c7-8a36-4349abf6c3d9|c183b1f3-1ef3-45b8-a38f-9d59552b8cb6|/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc3847d|/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc3847d|/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc3847d"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },

@@ -19,7 +19,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -62,7 +62,7 @@
       36,
       40
     ],
-    "visible_layers": "ffffdcf_ffffffff",
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 1
   },
   "git": {
@@ -72,7 +72,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "HALMET.kicad_prl",
+    "filename": "HALSER.kicad_prl",
     "version": 3
   },
   "project": {

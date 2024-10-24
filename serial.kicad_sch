@@ -1130,364 +1130,6 @@
 				)
 			)
 		)
-		(symbol "Device:Filter_EMI_CommonMode"
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FL"
-				(at 0 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Filter_EMI_CommonMode"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "EMI 2-inductor common mode filter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "EMI common mode filter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "L_* L_CommonMode*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Filter_EMI_CommonMode_0_1"
-				(circle
-					(center -3.048 -1.27)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -3.048 1.524)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -2.54 2.032)
-					(mid -2.032 1.5262)
-					(end -1.524 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.524 -2.032)
-					(mid -2.032 -1.5262)
-					(end -2.54 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.524 2.032)
-					(mid -1.016 1.5262)
-					(end -0.508 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.508 -2.032)
-					(mid -1.016 -1.5262)
-					(end -1.524 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.508 2.032)
-					(mid 0 1.5262)
-					(end 0.508 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.032) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0.508) (xy 2.54 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.032) (xy -2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.032) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -0.508) (xy -2.54 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.508 -2.032)
-					(mid 0 -1.5262)
-					(end -0.508 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.508 2.032)
-					(mid 1.016 1.5262)
-					(end 1.524 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.524 -2.032)
-					(mid 1.016 -1.5262)
-					(end 0.508 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.524 2.032)
-					(mid 2.032 1.5262)
-					(end 2.54 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 -2.032)
-					(mid 2.032 -1.5262)
-					(end 1.524 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Filter_EMI_CommonMode_1_1"
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:LED"
 			(pin_numbers hide)
 			(pin_names
@@ -1648,6 +1290,484 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:L_Ferrite_Coupled_1243"
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L_Ferrite_Coupled_1243"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Coupled inductor with ferrite core"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic coupled"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_Ferrite_Coupled_1243_0_1"
+				(circle
+					(center -3.048 -1.27)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -3.048 1.524)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -2.54 2.032)
+					(mid -2.032 1.5262)
+					(end -1.524 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.524 -2.032)
+					(mid -2.032 -1.5262)
+					(end -2.54 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.524 2.032)
+					(mid -1.016 1.5262)
+					(end -0.508 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.508 -2.032)
+					(mid -1.016 -1.5262)
+					(end -1.524 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.508 2.032)
+					(mid 0 1.5262)
+					(end 0.508 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.794 -0.508) (xy -2.286 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.794 0.508) (xy -2.286 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.032) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.032) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.508) (xy -1.27 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 0.508) (xy -1.27 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -0.508) (xy -0.254 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0.508) (xy -0.254 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0.508) (xy 0.762 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.508) (xy 1.778 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0.508) (xy 1.778 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -0.508) (xy 2.794 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0.508) (xy 2.794 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.032) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.508 -2.032)
+					(mid 0 -1.5262)
+					(end -0.508 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.508 2.032)
+					(mid 1.016 1.5262)
+					(end 1.524 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.524 -2.032)
+					(mid 1.016 -1.5262)
+					(end 0.508 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.524 2.032)
+					(mid 2.032 1.5262)
+					(end 2.54 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -2.032)
+					(mid 2.032 -1.5262)
+					(end 1.524 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_Ferrite_Coupled_1243_1_1"
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3493,12 +3613,6 @@
 		(uuid "55c92fe2-7575-4e00-a510-630145abf78f")
 	)
 	(junction
-		(at 226.06 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5ace28a4-5cb0-4737-af1a-2be7fd9be178")
-	)
-	(junction
 		(at 227.33 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3517,6 +3631,12 @@
 		(uuid "6a73ea92-21f5-4ab8-bb99-f472b65ff92a")
 	)
 	(junction
+		(at 232.41 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e423996-5017-493e-93ee-16159fa5e19c")
+	)
+	(junction
 		(at 186.69 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3527,12 +3647,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73cc2575-0d39-4949-bce6-452406d9ea1f")
-	)
-	(junction
-		(at 208.28 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "75933287-b50d-4c2e-b321-ec6ea5a3c2de")
 	)
 	(junction
 		(at 194.31 153.67)
@@ -3589,6 +3703,12 @@
 		(uuid "a43e6406-d688-4a12-9742-a874345fbad3")
 	)
 	(junction
+		(at 226.06 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4d514e3-45c9-4ece-a03a-968aa62331c9")
+	)
+	(junction
 		(at 218.44 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3618,6 +3738,18 @@
 		(color 0 0 0 0)
 		(uuid "ddc5014d-b8fa-4eb8-931c-542ec51d58b3")
 	)
+	(junction
+		(at 232.41 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e228b7b8-a06c-485a-8664-fee05e7845a5")
+	)
+	(junction
+		(at 208.28 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd433f4a-9a50-4f20-b745-f9feea291c22")
+	)
 	(no_connect
 		(at 114.3 49.53)
 		(uuid "9adc2e92-debc-4e73-90d4-ab9517898072")
@@ -3629,16 +3761,6 @@
 	(no_connect
 		(at 121.92 115.57)
 		(uuid "fd9368b9-9288-4db4-902b-d8f4268908fb")
-	)
-	(wire
-		(pts
-			(xy 226.06 33.02) (xy 228.6 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "019e9dc7-4a42-4555-8005-f1b253e58d18")
 	)
 	(wire
 		(pts
@@ -3669,6 +3791,16 @@
 			(type default)
 		)
 		(uuid "07db5d88-c6df-4d3f-abbb-d020e300c5b7")
+	)
+	(wire
+		(pts
+			(xy 208.28 33.02) (xy 228.6 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "089550a2-ca58-46b0-892b-f19ab809a4e3")
 	)
 	(wire
 		(pts
@@ -4292,6 +4424,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 33.02) (xy 208.28 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "731fdeff-5290-4cd0-994d-da86eac3864e")
+	)
+	(wire
+		(pts
 			(xy 124.46 91.44) (xy 124.46 92.71)
 		)
 		(stroke
@@ -4322,7 +4464,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 33.02) (xy 238.76 33.02)
+			(xy 228.6 33.02) (xy 232.41 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4402,6 +4544,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 33.02) (xy 238.76 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ab01f2b-96cd-42f9-870b-426ecec88798")
+	)
+	(wire
+		(pts
 			(xy 109.22 46.99) (xy 109.22 39.37)
 		)
 		(stroke
@@ -4429,6 +4581,16 @@
 			(type default)
 		)
 		(uuid "8ffe3c7d-1800-4058-99ed-565d43e8d1c7")
+	)
+	(wire
+		(pts
+			(xy 232.41 21.59) (xy 232.41 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9583d0a6-2912-491a-bfc2-f5afd9906e74")
 	)
 	(wire
 		(pts
@@ -4482,26 +4644,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 33.02) (xy 226.06 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a00bf22c-57ce-4ee4-bb67-731567e64f0d")
-	)
-	(wire
-		(pts
-			(xy 208.28 25.4) (xy 228.6 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0c08443-66a8-438e-b866-b8db139b03db")
-	)
-	(wire
-		(pts
 			(xy 231.14 144.78) (xy 256.54 144.78)
 		)
 		(stroke
@@ -4549,16 +4691,6 @@
 			(type default)
 		)
 		(uuid "a5e68116-b54a-4830-8278-7ed4833dbbfc")
-	)
-	(wire
-		(pts
-			(xy 208.28 25.4) (xy 208.28 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a742df2e-4871-44ef-bf30-7f785ec78fd7")
 	)
 	(wire
 		(pts
@@ -4622,6 +4754,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 25.4) (xy 228.6 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad8ec9ba-0e8e-444d-ac0f-27ac92423b5e")
+	)
+	(wire
+		(pts
 			(xy 231.14 144.78) (xy 231.14 149.86)
 		)
 		(stroke
@@ -4642,7 +4784,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 25.4) (xy 208.28 25.4)
+			(xy 204.47 25.4) (xy 226.06 25.4)
 		)
 		(stroke
 			(width 0)
@@ -4662,7 +4804,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 33.02) (xy 226.06 33.02)
+			(xy 204.47 33.02) (xy 208.28 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4739,6 +4881,16 @@
 			(type default)
 		)
 		(uuid "bdf2846d-d191-4ef0-9d81-3e8151662d0f")
+	)
+	(wire
+		(pts
+			(xy 232.41 33.02) (xy 232.41 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bed050a8-2754-45da-88be-edb829e275cf")
 	)
 	(wire
 		(pts
@@ -4912,6 +5064,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 25.4) (xy 226.06 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e58d62c4-5e88-4d6d-ad55-e9b082c4b523")
+	)
+	(wire
+		(pts
 			(xy 78.74 86.36) (xy 78.74 85.09)
 		)
 		(stroke
@@ -5020,7 +5182,7 @@
 		)
 		(uuid "342229cb-a76c-401f-b92a-284a4bbf5362")
 	)
-	(text "NMEA 0183 RX"
+	(text "RS-485 TX"
 		(exclude_from_sim no)
 		(at 261.62 20.574 0)
 		(effects
@@ -5060,7 +5222,7 @@
 		)
 		(uuid "81f56c2a-a8ee-499c-b11a-709b617dce71")
 	)
-	(text "NMEA 0183 TX"
+	(text "RS-485 RX"
 		(exclude_from_sim no)
 		(at 262.128 51.816 0)
 		(effects
@@ -5179,7 +5341,7 @@
 		(uuid "42012552-d3b3-4886-a559-4695c26c8a18")
 	)
 	(label "RS485_RX_B_LINE"
-		(at 226.06 40.64 0)
+		(at 232.41 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5311,7 +5473,7 @@
 		(uuid "c89329e1-474c-453f-9ede-6c709aa034e9")
 	)
 	(label "UART_RX"
-		(at 43.18 109.22 0)
+		(at 43.18 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5344,7 +5506,7 @@
 		(uuid "d8f5bd88-ad96-4a5d-bf16-f948f470ef15")
 	)
 	(label "RS485_RX"
-		(at 43.18 104.14 0)
+		(at 43.18 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5366,7 +5528,7 @@
 		(uuid "defc1dc7-1811-4fd2-820b-12a33a610348")
 	)
 	(label "RS485_RX_A_LINE"
-		(at 232.41 25.4 180)
+		(at 232.41 21.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5471,7 +5633,7 @@
 		(uuid "f628a5df-65ce-4dd3-a0f8-ad7db0b76888")
 	)
 	(symbol
-		(lib_id "Device:Filter_EMI_CommonMode")
+		(lib_id "Device:L_Ferrite_Coupled_1243")
 		(at 199.39 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5481,7 +5643,7 @@
 		(fields_autoplaced yes)
 		(uuid "001b7108-5f46-4414-be42-bf91d686372a")
 		(property "Reference" "FL1001"
-			(at 199.009 21.59 0)
+			(at 199.136 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5489,15 +5651,15 @@
 			)
 		)
 		(property "Value" "PCAQ2012B-201T030"
-			(at 199.009 24.13 0)
+			(at 199.136 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "PCM_Ferrite_SMD_AKL:Ferrite_0805_2012Metric"
-			(at 199.39 28.194 0)
+		(property "Footprint" "HALSER:L_CommonModeChoke_PCAQ2012B"
+			(at 199.39 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5506,7 +5668,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 199.39 28.194 0)
+			(at 199.39 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5514,7 +5676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "EMI 2-inductor common mode filter"
+		(property "Description" "Coupled inductor with ferrite core"
 			(at 199.39 29.21 0)
 			(effects
 				(font
@@ -5551,6 +5713,15 @@
 			)
 		)
 		(property "LCSC" "C2926967"
+			(at 199.39 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 199.39 29.21 0)
 			(effects
 				(font
@@ -5652,6 +5823,15 @@
 			)
 		)
 		(property "LCSC" "C25077"
+			(at 180.34 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 180.34 54.61 0)
 			(effects
 				(font
@@ -5823,6 +6003,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 124.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b2cec058-6652-4a50-ad23-bbe8392d61fe")
 		)
@@ -5918,6 +6107,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 217.17 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "764a6a88-5097-440f-a302-00aec105f25a")
 		)
@@ -5955,7 +6153,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Terminal Block Socket"
+		(property "Value" "UART Socket"
 			(at 264.16 146.0501 0)
 			(effects
 				(font
@@ -6010,6 +6208,15 @@
 			)
 		)
 		(property "LCSC" "C8389"
+			(at 261.62 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 261.62 147.32 0)
 			(effects
 				(font
@@ -6108,6 +6315,15 @@
 			)
 		)
 		(property "LCSC" "C25117"
+			(at 179.07 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 179.07 149.86 0)
 			(effects
 				(font
@@ -6287,6 +6503,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 191.77 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f711ccea-d95c-4766-a9f5-7352ea889ae6")
 		)
@@ -6303,7 +6528,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Filter_EMI_CommonMode")
+		(lib_id "Device:L_Ferrite_Coupled_1243")
 		(at 199.39 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6313,7 +6538,7 @@
 		(fields_autoplaced yes)
 		(uuid "239c0e64-f428-4153-9659-164a393042a7")
 		(property "Reference" "FL1002"
-			(at 199.009 50.8 0)
+			(at 199.136 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6321,15 +6546,15 @@
 			)
 		)
 		(property "Value" "PCAQ2012B-201T030"
-			(at 199.009 53.34 0)
+			(at 199.136 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "PCM_Ferrite_SMD_AKL:Ferrite_0805_2012Metric"
-			(at 199.39 57.404 0)
+		(property "Footprint" "HALSER:L_CommonModeChoke_PCAQ2012B"
+			(at 199.39 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6338,7 +6563,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 199.39 57.404 0)
+			(at 199.39 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6346,7 +6571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "EMI 2-inductor common mode filter"
+		(property "Description" "Coupled inductor with ferrite core"
 			(at 199.39 58.42 0)
 			(effects
 				(font
@@ -6383,6 +6608,15 @@
 			)
 		)
 		(property "LCSC" "C2926967"
+			(at 199.39 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 199.39 58.42 0)
 			(effects
 				(font
@@ -6485,6 +6719,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 40.64 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 40.64 162.56 0)
 			(effects
 				(font
@@ -6656,6 +6899,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 208.28 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 208.28 115.57 0)
 			(effects
 				(font
@@ -6901,6 +7153,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 245.11 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "682fbf5d-4d3e-47cc-98a7-78f7515a6ef5")
 		)
@@ -6989,6 +7250,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 92.71 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 92.71 158.75 0)
 			(effects
 				(font
@@ -7101,6 +7371,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 242.57 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c6c1e049-f464-44b4-8d82-32a25463acbe")
 		)
@@ -7188,6 +7467,15 @@
 			)
 		)
 		(property "LCSC" "C2831524"
+			(at 236.22 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 236.22 113.03 0)
 			(effects
 				(font
@@ -7288,6 +7576,15 @@
 			)
 		)
 		(property "LCSC" "C5356049"
+			(at 228.6 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 228.6 58.42 0)
 			(effects
 				(font
@@ -7523,6 +7820,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 35.56 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "17d95c48-0eda-4041-bc13-99ba50212d8c")
 		)
@@ -7641,6 +7947,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 208.28 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e5bc81e5-8746-4913-b270-bd6041386589")
 		)
@@ -7739,6 +8054,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 194.31 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 194.31 156.21 0)
 			(effects
 				(font
@@ -7919,6 +8243,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 186.69 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "07b1699b-8250-412f-936a-ac5432662c1d")
 		)
@@ -8015,6 +8348,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 242.57 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 242.57 33.02 0)
 			(effects
 				(font
@@ -8175,6 +8517,15 @@
 			)
 		)
 		(property "LCSC" "C10429"
+			(at 115.57 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 115.57 176.53 0)
 			(effects
 				(font
@@ -8423,6 +8774,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 63.5 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c1143f15-7ede-4a9f-845c-483f951ed217")
 		)
@@ -8528,6 +8888,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 231.14 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0e0b9b24-cda0-45eb-a486-ad9b6d514983")
 		)
@@ -8624,6 +8993,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 199.39 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 199.39 153.67 0)
 			(effects
 				(font
@@ -8741,7 +9119,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "PCM_Package_SO_AKL:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 80.01 57.15 0)
 			(effects
 				(font
@@ -8787,6 +9165,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 80.01 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 80.01 44.45 0)
 			(effects
 				(font
@@ -8909,6 +9296,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 39.37 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c375a916-f2a5-4ffd-8f50-5b32e32ce9a9")
 		)
@@ -8943,7 +9339,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Terminal Block Socket"
+		(property "Value" "RS485 RX Socket"
 			(at 264.16 31.7501 0)
 			(effects
 				(font
@@ -8998,6 +9394,15 @@
 			)
 		)
 		(property "LCSC" "C8389"
+			(at 261.62 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 261.62 33.02 0)
 			(effects
 				(font
@@ -9168,6 +9573,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 118.11 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "7f8c0b17-21a5-47ea-92d0-1d3648951b39")
 		)
@@ -9276,6 +9690,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 25.4 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d2ec9655-83ea-4ade-9da0-5888a0991566")
 		)
@@ -9319,7 +9742,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "PCM_Package_SO_AKL:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 121.92 57.15 0)
 			(effects
 				(font
@@ -9365,6 +9788,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 121.92 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 121.92 44.45 0)
 			(effects
 				(font
@@ -9487,6 +9919,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 213.36 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 213.36 113.03 0)
 			(effects
 				(font
@@ -9657,6 +10098,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 54.61 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7df4e949-9097-49b8-8a77-5e2dc21959db")
 		)
@@ -9744,6 +10194,15 @@
 			)
 		)
 		(property "LCSC" "C23197"
+			(at 193.04 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 193.04 100.33 0)
 			(effects
 				(font
@@ -9850,6 +10309,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 194.31 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 194.31 140.97 0)
 			(effects
 				(font
@@ -10028,6 +10496,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 218.44 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "52472d37-1f64-4f76-8a61-080c48bb44c8")
 		)
@@ -10124,6 +10601,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 199.39 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 199.39 138.43 0)
 			(effects
 				(font
@@ -10301,6 +10787,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 242.57 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "05c3fa66-5b48-4ada-8f5f-5fd353f56b31")
 		)
@@ -10396,6 +10891,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 193.04 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5768450d-f6e0-4ed8-86a3-3b25608679ba")
 		)
@@ -10430,7 +10934,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Terminal Block Socket"
+		(property "Value" "RS485 TX Socket"
 			(at 264.16 60.9601 0)
 			(effects
 				(font
@@ -10485,6 +10989,15 @@
 			)
 		)
 		(property "LCSC" "C8389"
+			(at 261.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 261.62 62.23 0)
 			(effects
 				(font
@@ -10584,6 +11097,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 40.64 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 40.64 172.72 0)
 			(effects
 				(font
@@ -10753,6 +11275,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 25.4 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "396f0280-c9d4-4896-a315-252b8444da1b")
 		)
@@ -10850,6 +11381,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 204.47 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 204.47 156.21 0)
 			(effects
 				(font
@@ -11019,6 +11559,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 217.17 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "a5540e39-47bf-4048-9121-5e4934d34c18")
 		)
@@ -11111,6 +11660,15 @@
 			)
 		)
 		(property "LCSC" "C5356049"
+			(at 228.6 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 228.6 29.21 0)
 			(effects
 				(font
@@ -11618,6 +12176,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 191.77 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "02391201-a28d-420c-b586-514a452581a8")
 		)
@@ -11779,6 +12346,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 242.57 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 242.57 30.48 0)
 			(effects
 				(font
@@ -12024,6 +12600,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 218.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "02a0f286-e7b8-4385-a662-cc7d233023fb")
 		)
@@ -12110,6 +12695,15 @@
 			)
 		)
 		(property "LCSC" "C25077"
+			(at 180.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 180.34 62.23 0)
 			(effects
 				(font
@@ -12207,6 +12801,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 124.46 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 124.46 88.9 0)
 			(effects
 				(font
@@ -12313,6 +12916,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 186.69 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 186.69 67.31 0)
 			(effects
 				(font
@@ -12482,6 +13094,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 180.34 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6f2fc266-63c4-4c5c-b30f-98e269c68f7d")
 		)
@@ -12635,6 +13256,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 78.74 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 78.74 88.9 0)
 			(effects
 				(font
@@ -12867,6 +13497,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 180.34 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2ae9ad95-0e55-4d24-b21e-4190f869d491")
 		)
@@ -13089,6 +13728,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 101.6 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 101.6 107.95 0)
 			(effects
 				(font
@@ -13499,6 +14147,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 83.82 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "7f8c0b17-21a5-47ea-92d0-1d3648951b3a")
 		)
@@ -13672,6 +14329,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 179.07 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4bfa47ea-98b9-44f5-936a-809b8824906e")
 		)
@@ -13768,6 +14434,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 213.36 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 213.36 93.98 0)
 			(effects
 				(font
@@ -13875,7 +14550,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Terminal Block Socket"
+		(property "Value" "RS-232 Socket"
 			(at 264.16 101.6001 0)
 			(effects
 				(font
@@ -13930,6 +14605,15 @@
 			)
 		)
 		(property "LCSC" "C8389"
+			(at 261.62 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 261.62 102.87 0)
 			(effects
 				(font
@@ -14170,6 +14854,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 204.47 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 204.47 140.97 0)
 			(effects
 				(font

@@ -707,7 +707,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+			(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-23"
 				(at 0 8.255 0)
 				(effects
 					(font
@@ -2615,6 +2615,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 123.19 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7a00c87b-7d14-44b7-8be0-d382d33782f5")
 		)
@@ -2712,6 +2721,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 128.27 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 128.27 95.25 0)
 			(effects
 				(font
@@ -2896,6 +2914,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 74.93 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "56bed97b-9bd2-4c88-8455-4d23d5f8fedc")
 		)
@@ -2989,6 +3016,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 190.5 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 190.5 64.77 0)
 			(effects
 				(font
@@ -3160,6 +3196,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 69.85 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8ab23d75-25dd-4f31-bbbd-b739197571a7")
 		)
@@ -3323,6 +3368,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 83.82 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "41ced15d-b02b-4469-945e-38230b7103f9")
 		)
@@ -3429,7 +3483,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-23"
 			(at 151.13 55.245 0)
 			(effects
 				(font
@@ -3485,6 +3539,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 151.13 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 151.13 63.5 0)
 			(effects
 				(font
@@ -3794,6 +3857,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 177.8 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6561239c-4d1d-4334-9315-639e784a3ce3")
 		)
@@ -3948,6 +4020,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 101.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 101.6 63.5 0)
 			(effects
 				(font
@@ -4132,6 +4213,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 167.64 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4e1d6308-dc9c-441f-a659-57a5f428d119")
 		)
@@ -4225,6 +4315,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 132.08 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 132.08 63.5 0)
 			(effects
 				(font
@@ -4460,6 +4559,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 77.47 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a0389f0e-8aeb-400a-9b36-ee4ebb3ad5f8")
 		)
@@ -4623,6 +4731,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 118.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "55b639da-ba05-4a91-bccb-23b68b0bc90e")
 		)
@@ -4730,7 +4847,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HALMET:C_1808_4520Metric"
+		(property "Footprint" "HALSER:C_1808_4520Metric"
 			(at 101.6 72.39 0)
 			(effects
 				(font
@@ -4776,6 +4893,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 101.6 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 101.6 72.39 0)
 			(effects
 				(font
@@ -5202,6 +5328,15 @@
 			)
 		)
 		(property "LCSC" "C471590"
+			(at 101.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 101.6 106.68 0)
 			(effects
 				(font

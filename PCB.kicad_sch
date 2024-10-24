@@ -414,7 +414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HALMET:MountingSlot_3.2mm_M3_Unplated"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
 			(at 48.26 46.99 0)
 			(effects
 				(font
@@ -460,6 +460,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 48.26 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 48.26 46.99 0)
 			(effects
 				(font
@@ -504,7 +513,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HALMET:MountingSlot_3.2mm_M3_Unplated"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
 			(at 48.26 54.61 0)
 			(effects
 				(font
@@ -550,6 +559,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 48.26 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 48.26 54.61 0)
 			(effects
 				(font
@@ -640,6 +658,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 160.02 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "HALMET"
 				(path "/c7e7067c-5f5e-48d8-ab59-df26f9b35863/00000000-0000-0000-0000-00005fc0c355"
@@ -682,7 +709,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HALMET:MountingSlot_3.2mm_M3_Unplated"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
 			(at 48.26 62.23 0)
 			(effects
 				(font
@@ -736,6 +763,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 48.26 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "HALSER"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc0c355"
@@ -773,7 +809,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HALMET:cc-by_5mm"
+		(property "Footprint" "HALSER:cc-by_5mm"
 			(at 160.02 46.99 0)
 			(effects
 				(font
@@ -810,6 +846,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 160.02 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 160.02 46.99 0)
 			(effects
 				(font
@@ -861,7 +906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HALMET:Hat_Labs_25.4mm"
+		(property "Footprint" "HALSER:Hat_Labs_25.4mm"
 			(at 160.02 82.55 0)
 			(effects
 				(font
@@ -898,6 +943,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 160.02 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 160.02 82.55 0)
 			(effects
 				(font
@@ -948,7 +1002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HALMET:MountingSlot_3.2mm_M3_Unplated"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
 			(at 48.26 69.85 0)
 			(effects
 				(font
@@ -1002,6 +1056,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 48.26 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "HALSER"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc0c355"
@@ -1017,7 +1080,7 @@
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c095e0f2-a184-4e79-bff7-b6581defa4e2")
@@ -1084,6 +1147,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 160.02 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "HALMET"
 				(path "/c7e7067c-5f5e-48d8-ab59-df26f9b35863/00000000-0000-0000-0000-00005fc0c355"
@@ -1127,7 +1199,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HALMET:HaL_picto_8mm"
+		(property "Footprint" "HALSER:HaL_picto_8mm"
 			(at 160.02 91.44 0)
 			(effects
 				(font
@@ -1164,6 +1236,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 160.02 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 160.02 91.44 0)
 			(effects
 				(font
@@ -1252,6 +1333,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 160.02 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 160.02 73.66 0)
 			(effects
 				(font

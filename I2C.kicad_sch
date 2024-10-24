@@ -1554,6 +1554,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 41.91 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5e844299-5583-4726-abff-79fc5e2e1885")
 		)
@@ -1733,6 +1742,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 137.16 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "93c82583-7ca4-47b9-81d3-24b1eb689576")
 		)
@@ -1896,6 +1914,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 137.16 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 137.16 92.71 0)
 			(effects
 				(font
@@ -2074,6 +2101,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 148.59 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "762f68fd-8f97-4ed4-b58c-65ed0e1fc5f4")
 		)
@@ -2171,6 +2207,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 148.59 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 148.59 113.03 0)
 			(effects
 				(font
@@ -2277,6 +2322,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 137.16 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 137.16 72.39 0)
 			(effects
 				(font
@@ -2455,6 +2509,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 148.59 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d49979b8-f8c0-4b71-b019-93209c4e779c")
 		)
@@ -2551,6 +2614,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 83.82 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 83.82 50.8 0)
 			(effects
 				(font
@@ -2729,6 +2801,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 83.82 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4304d68e-bdb6-4b70-94b2-279d4976a29d")
 		)
@@ -2899,6 +2980,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 142.24 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d8379761-9055-48bd-a006-b2425ef663dc")
 		)
@@ -3003,6 +3093,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 142.24 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c5ef056d-274a-4928-9b9e-a913df1b4486")
 		)
@@ -3099,6 +3198,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 142.24 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 142.24 88.9 0)
 			(effects
 				(font
@@ -3539,6 +3647,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 85.09 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "119f7e99-14ac-4b91-9ef2-b187f8e13d62")
 		)
@@ -3701,6 +3818,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 63.5 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 63.5 97.79 0)
 			(effects
 				(font
@@ -3872,6 +3998,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 71.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 71.12 97.79 0)
 			(effects
 				(font
