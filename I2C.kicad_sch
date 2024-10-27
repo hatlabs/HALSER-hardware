@@ -977,10 +977,28 @@
 		)
 	)
 	(junction
+		(at 50.8 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "093fe298-5556-46f8-aa59-5e3c5c089e5c")
+	)
+	(junction
 		(at 137.16 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "17ed5bd0-2a2e-4d48-83f4-ab563068ea68")
+	)
+	(junction
+		(at 52.07 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2031e386-fafc-4944-884c-636f6485ced6")
+	)
+	(junction
+		(at 49.53 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33d7faea-36d9-4b82-8164-ef5ca60020a0")
 	)
 	(junction
 		(at 63.5 90.17)
@@ -999,6 +1017,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67f6b8a9-ecce-464c-916d-f934341d2161")
+	)
+	(junction
+		(at 48.26 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "802df7fa-56ca-48da-a869-1ae3485874fc")
 	)
 	(junction
 		(at 137.16 68.58)
@@ -1032,6 +1056,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 72.39) (xy 49.53 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "007110fc-1459-4f9c-95b3-70fc65693899")
+	)
+	(wire
+		(pts
 			(xy 85.09 85.09) (xy 90.17 85.09)
 		)
 		(stroke
@@ -1042,7 +1076,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 82.55) (xy 83.82 82.55)
+			(xy 46.99 82.55) (xy 52.07 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1059,6 +1093,16 @@
 			(type default)
 		)
 		(uuid "1b46fd1e-6af2-4fad-9f38-a1287d91d15b")
+	)
+	(wire
+		(pts
+			(xy 50.8 69.85) (xy 50.8 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f72549b-35be-4580-949f-c115aa33995e")
 	)
 	(wire
 		(pts
@@ -1102,6 +1146,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 69.85) (xy 50.8 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36376f54-6a2f-4a57-bb47-f74e66031138")
+	)
+	(wire
+		(pts
 			(xy 74.93 57.15) (xy 80.01 57.15)
 		)
 		(stroke
@@ -1122,7 +1176,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 87.63) (xy 71.12 87.63)
+			(xy 46.99 87.63) (xy 49.53 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1182,6 +1236,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 74.93) (xy 48.26 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c02c2c9-25aa-4c59-be3c-53fc2fe7efb4")
+	)
+	(wire
+		(pts
 			(xy 148.59 109.22) (xy 151.13 109.22)
 		)
 		(stroke
@@ -1202,6 +1266,36 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 72.39) (xy 49.53 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6615f16c-a98f-452b-99c7-63d51c140968")
+	)
+	(wire
+		(pts
+			(xy 52.07 67.31) (xy 52.07 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74469d81-9a47-478a-9ded-34b963d59506")
+	)
+	(wire
+		(pts
+			(xy 46.99 67.31) (xy 52.07 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "802185dc-49cf-4a28-a1fe-49615c4b2fc2")
+	)
+	(wire
+		(pts
 			(xy 133.35 88.9) (xy 137.16 88.9)
 		)
 		(stroke
@@ -1212,7 +1306,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 85.09) (xy 85.09 85.09)
+			(xy 46.99 85.09) (xy 50.8 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1272,6 +1366,26 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 87.63) (xy 71.12 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1ee7f21-979e-4cae-9f78-561dadb63e39")
+	)
+	(wire
+		(pts
+			(xy 48.26 74.93) (xy 48.26 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2f5241e-c70e-4812-930f-c7eedfe8eb9e")
+	)
+	(wire
+		(pts
 			(xy 87.63 74.93) (xy 87.63 77.47)
 		)
 		(stroke
@@ -1302,7 +1416,17 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 90.17) (xy 63.5 90.17)
+			(xy 50.8 85.09) (xy 85.09 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf6f937c-59a6-4e81-bd16-bcc124758b18")
+	)
+	(wire
+		(pts
+			(xy 46.99 90.17) (xy 48.26 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1322,6 +1446,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 82.55) (xy 83.82 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4a2c9a1-8618-48be-b57f-d772de384173")
+	)
+	(wire
+		(pts
 			(xy 146.05 88.9) (xy 148.59 88.9)
 		)
 		(stroke
@@ -1329,6 +1463,16 @@
 			(type default)
 		)
 		(uuid "e091cd3c-fc47-4c41-8476-0ec47526e265")
+	)
+	(wire
+		(pts
+			(xy 48.26 90.17) (xy 63.5 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea8e4224-5f7b-46d0-a5ce-64c0df39b8b3")
 	)
 	(wire
 		(pts
@@ -1350,7 +1494,7 @@
 		)
 		(uuid "fabb2626-0634-4a70-9288-6a834bc6d91c")
 	)
-	(label "SDA_CONN"
+	(label "SDA_C"
 		(at 133.35 88.9 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1372,28 +1516,6 @@
 		)
 		(uuid "645689be-6780-4bb2-a829-b90543634ab0")
 	)
-	(label "SDA_CONN"
-		(at 90.17 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6adee9fe-bc4f-4d39-b623-74859d607fbc")
-	)
-	(label "SCL_CONN"
-		(at 90.17 87.63 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8c76f0ee-46bf-48da-a1a4-40848f3341e7")
-	)
 	(label "I2C_3V3"
 		(at 133.35 68.58 180)
 		(fields_autoplaced yes)
@@ -1405,7 +1527,7 @@
 		)
 		(uuid "92066313-10ed-48db-98fc-066e84fe27c3")
 	)
-	(label "SCL_CONN"
+	(label "SCL_C"
 		(at 133.35 109.22 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1440,6 +1562,18 @@
 		)
 		(uuid "84f50e4d-585d-4b4d-ba0e-c1c77dfebe8b")
 	)
+	(hierarchical_label "SDA_C"
+		(shape input)
+		(at 90.17 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "884b3eb6-4f34-4697-8c2c-55b98ac5ddec")
+	)
 	(hierarchical_label "SCL"
 		(shape input)
 		(at 151.13 109.22 0)
@@ -1451,6 +1585,18 @@
 			(justify left)
 		)
 		(uuid "b96eb5c3-f8f8-4123-b1ec-edfe937b1a24")
+	)
+	(hierarchical_label "SCL_C"
+		(shape input)
+		(at 90.17 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cedce917-6f97-40f3-a403-7877c0b11a32")
 	)
 	(hierarchical_label "SDA"
 		(shape input)
@@ -3731,6 +3877,126 @@
 			(project "HALMET"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005f9be197"
 					(reference "#PWR0402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 41.91 69.85 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "beeb1f0e-1243-42bb-b9b0-bbf3d0489252")
+		(property "Reference" "J402"
+			(at 43.9928 61.7982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "I2C Male Header"
+			(at 43.9928 64.1096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 41.91 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7430360"
+			(at 41.91 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_CORRECTION" "0;3.81;90"
+			(at 41.91 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 41.91 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 41.91 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 41.91 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6f9b31d-daf3-4698-b97e-384ae0b8e669")
+		)
+		(pin "2"
+			(uuid "50fee00d-8c41-452e-bdc6-75cea5f46ca3")
+		)
+		(pin "3"
+			(uuid "0e7e4339-6b33-4227-a2c0-a3a2a7400677")
+		)
+		(pin "4"
+			(uuid "8f097423-4894-4f88-a111-67cff33e43d7")
+		)
+		(instances
+			(project "HALSER"
+				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005f9be197"
+					(reference "J402")
 					(unit 1)
 				)
 			)

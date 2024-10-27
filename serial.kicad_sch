@@ -5252,7 +5252,7 @@
 		)
 		(uuid "d516f21b-6b00-4a49-9de2-3362ac36573d")
 	)
-	(label "RS485_TX_B_LINE"
+	(label "RS485_TX_B_C"
 		(at 248.92 73.66 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5263,7 +5263,29 @@
 		)
 		(uuid "06bdee86-c328-4735-a730-731d64f78a09")
 	)
-	(label "RS232_TX_LINE"
+	(label "UART_RX_C"
+		(at 240.03 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "099067d7-d971-43ff-9e2e-cc40c242023f")
+	)
+	(label "UART_TX_C"
+		(at 240.03 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a826706-bada-42da-9e88-847316bc8f21")
+	)
+	(label "RS232_TX_C"
 		(at 256.54 100.33 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5340,8 +5362,8 @@
 		)
 		(uuid "42012552-d3b3-4886-a559-4695c26c8a18")
 	)
-	(label "RS485_RX_B_LINE"
-		(at 232.41 41.91 0)
+	(label "RS485_RX_B_C"
+		(at 232.41 21.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5439,7 +5461,7 @@
 		)
 		(uuid "abf88644-dec4-4af9-aecc-f0f9dd858402")
 	)
-	(label "RS485_TX_A_LINE"
+	(label "RS485_TX_A_C"
 		(at 251.46 52.07 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5516,7 +5538,7 @@
 		)
 		(uuid "da58f512-ce88-4f52-bd70-5720adedafc0")
 	)
-	(label "RS232_RX_LINE"
+	(label "RS232_RX_C"
 		(at 256.54 102.87 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5527,14 +5549,14 @@
 		)
 		(uuid "defc1dc7-1811-4fd2-820b-12a33a610348")
 	)
-	(label "RS485_RX_A_LINE"
-		(at 232.41 21.59 180)
+	(label "RS485_RX_A_C"
+		(at 232.41 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "e3a59904-0a37-4a3a-b1b1-a6d1e69f63f1")
 	)

@@ -46,7 +46,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 63.5) (xy 57.15 63.5)
+			(xy 59.69 62.23) (xy 57.15 62.23)
 		)
 		(stroke
 			(width 0)
@@ -66,7 +66,17 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 120.65) (xy 236.22 120.65)
+			(xy 156.21 80.01) (xy 158.75 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "233312f5-4375-4e2d-8c10-8ac451bab5e4")
+	)
+	(wire
+		(pts
+			(xy 222.25 119.38) (xy 236.22 119.38)
 		)
 		(stroke
 			(width 0)
@@ -76,13 +86,23 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 63.5) (xy 121.92 63.5)
+			(xy 119.38 62.23) (xy 121.92 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2b2b4c80-404f-4a9e-a26e-3959152ef637")
+	)
+	(wire
+		(pts
+			(xy 156.21 95.25) (xy 158.75 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ad3d926-5aab-4336-9746-12b48aad174b")
 	)
 	(wire
 		(pts
@@ -106,6 +126,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 93.98) (xy 233.68 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45285d0c-1f4e-4a4c-b581-1bfd54622250")
+	)
+	(wire
+		(pts
 			(xy 233.68 22.86) (xy 236.22 22.86)
 		)
 		(stroke
@@ -116,7 +146,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 54.61) (xy 233.68 54.61)
+			(xy 236.22 63.5) (xy 233.68 63.5)
 		)
 		(stroke
 			(width 0)
@@ -136,7 +166,17 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 73.66) (xy 158.75 73.66)
+			(xy 236.22 54.61) (xy 233.68 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52308e21-fcab-4307-bc52-c0e108e71f33")
+	)
+	(wire
+		(pts
+			(xy 156.21 72.39) (xy 158.75 72.39)
 		)
 		(stroke
 			(width 0)
@@ -146,7 +186,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 58.42) (xy 233.68 58.42)
+			(xy 236.22 66.04) (xy 233.68 66.04)
 		)
 		(stroke
 			(width 0)
@@ -206,7 +246,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 120.65) (xy 207.01 120.65)
+			(xy 204.47 119.38) (xy 207.01 119.38)
 		)
 		(stroke
 			(width 0)
@@ -216,7 +256,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 110.49) (xy 156.21 110.49)
+			(xy 158.75 109.22) (xy 156.21 109.22)
 		)
 		(stroke
 			(width 0)
@@ -226,7 +266,17 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 63.5) (xy 158.75 63.5)
+			(xy 236.22 57.15) (xy 233.68 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de888b39-dca2-441a-9cb7-a7d4abc9de32")
+	)
+	(wire
+		(pts
+			(xy 156.21 62.23) (xy 158.75 62.23)
 		)
 		(stroke
 			(width 0)
@@ -236,7 +286,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 31.75) (xy 57.15 31.75)
+			(xy 59.69 30.48) (xy 57.15 30.48)
 		)
 		(stroke
 			(width 0)
@@ -246,13 +296,23 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 81.28) (xy 158.75 81.28)
+			(xy 156.21 90.17) (xy 158.75 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fb39cab1-c53e-4c8f-8335-c1dbeeeb79a9")
+	)
+	(wire
+		(pts
+			(xy 156.21 77.47) (xy 158.75 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb432da3-035b-46c4-990e-df7f579f4482")
 	)
 	(rectangle
 		(start 214.63 105.41)
@@ -277,8 +337,19 @@
 		)
 		(uuid "02294e53-b711-4100-93a4-0d4f878cefc7")
 	)
-	(label "SCL"
-		(at 233.68 58.42 180)
+	(label "DQ_C"
+		(at 158.75 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "155530df-e3f3-4a91-9167-1780f5962135")
+	)
+	(label "SCL_C"
+		(at 233.68 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -311,7 +382,7 @@
 		(uuid "32d2cb03-4104-40ea-b61d-8d62481a10a6")
 	)
 	(label "SER_TX"
-		(at 204.47 120.65 180)
+		(at 204.47 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -321,8 +392,19 @@
 		)
 		(uuid "4062b2a9-e657-43dc-82b5-18dcdc9a2933")
 	)
+	(label "SCL_C"
+		(at 158.75 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e6d1e2b-4fa8-4f3b-9971-b0e930ac700b")
+	)
 	(label "CAN_TX"
-		(at 158.75 63.5 0)
+		(at 158.75 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -333,7 +415,7 @@
 		(uuid "64855620-1630-4a27-adf2-36019387b318")
 	)
 	(label "USB_D-"
-		(at 59.69 63.5 0)
+		(at 59.69 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -344,7 +426,7 @@
 		(uuid "6923caac-2e65-47a0-b851-d0528a512a16")
 	)
 	(label "SCL"
-		(at 158.75 73.66 0)
+		(at 158.75 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -376,8 +458,8 @@
 		)
 		(uuid "81a92410-039b-4a9d-970c-73db48ecd3fe")
 	)
-	(label "SDA"
-		(at 233.68 54.61 180)
+	(label "SDA_C"
+		(at 233.68 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -388,7 +470,7 @@
 		(uuid "84a508ab-f022-41bc-b09d-df562d10a71f")
 	)
 	(label "USB_D-"
-		(at 119.38 63.5 180)
+		(at 119.38 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -421,7 +503,7 @@
 		(uuid "8dcc4d72-8235-48b4-8f1d-e8c25abae48f")
 	)
 	(label "DQ"
-		(at 158.75 81.28 0)
+		(at 158.75 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -441,6 +523,17 @@
 			(justify right bottom)
 		)
 		(uuid "925fa3bd-ac5d-4407-ad17-0df3d3ba9918")
+	)
+	(label "SDA"
+		(at 233.68 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9d5d6c1a-1b31-443e-b7a5-1bbb259c9895")
 	)
 	(label "SDA"
 		(at 158.75 69.85 0)
@@ -464,8 +557,30 @@
 		)
 		(uuid "b4baaadf-9d83-4c06-8f70-a002f9d22e67")
 	)
+	(label "DQ_C"
+		(at 233.68 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b81b9579-f4fd-4352-820c-586311289f47")
+	)
+	(label "SDA_C"
+		(at 158.75 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2fdb9a4-985f-4028-ad7b-1d5d49f46bb8")
+	)
 	(label "SER_TX"
-		(at 158.75 110.49 0)
+		(at 158.75 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -486,6 +601,17 @@
 		)
 		(uuid "cfe4e3bb-b776-4d45-8566-eac5ccecad31")
 	)
+	(label "SCL"
+		(at 233.68 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d7a31ff9-5329-4930-b9ee-21458ed216d1")
+	)
 	(label "SER_RX"
 		(at 158.75 106.68 0)
 		(fields_autoplaced yes)
@@ -498,7 +624,7 @@
 		(uuid "e24051f1-c00c-4689-8826-bacc59fc9296")
 	)
 	(label "CAN_L"
-		(at 59.69 31.75 0)
+		(at 59.69 30.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -549,7 +675,7 @@
 			(uuid "2d1d3e79-eb2c-47a4-84b5-e21c82654fcb")
 		)
 		(pin "CAN_L" bidirectional
-			(at 57.15 31.75 0)
+			(at 57.15 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -685,7 +811,7 @@
 			(uuid "35ad897a-1698-4cb6-a194-457098b8f242")
 		)
 		(pin "USB_D-" bidirectional
-			(at 57.15 63.5 0)
+			(at 57.15 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -743,7 +869,7 @@
 			(uuid "5fffc2eb-3da3-48ef-81cb-7357033941ee")
 		)
 		(pin "SCL" input
-			(at 236.22 58.42 180)
+			(at 236.22 57.15 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -751,6 +877,26 @@
 				(justify left)
 			)
 			(uuid "73a40e82-ce30-4a3c-9394-979c2e256f22")
+		)
+		(pin "SCL_C" input
+			(at 236.22 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9bffea3c-2c51-462e-9ede-faa5135db733")
+		)
+		(pin "SDA_C" input
+			(at 236.22 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9df1aea2-8ac2-40b8-8fb4-4c2b320e4f47")
 		)
 		(instances
 			(project "HALSER"
@@ -799,6 +945,16 @@
 				(justify left)
 			)
 			(uuid "93024b80-7613-4c9b-bff2-0314afcbe951")
+		)
+		(pin "DQ_C" input
+			(at 236.22 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ce988a23-8993-4be4-9c6a-980afec32819")
 		)
 		(instances
 			(project "HALSER"
@@ -887,7 +1043,7 @@
 			(uuid "e203136f-79aa-4f0b-8f75-57b900addf65")
 		)
 		(pin "CAN_TX" output
-			(at 156.21 63.5 0)
+			(at 156.21 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -907,7 +1063,7 @@
 			(uuid "f364e3d8-8687-4a3a-93e1-1046fb536099")
 		)
 		(pin "SCL" bidirectional
-			(at 156.21 73.66 0)
+			(at 156.21 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -917,7 +1073,7 @@
 			(uuid "d3bfe369-15d1-4537-a1c1-2e03bc1bf0ea")
 		)
 		(pin "DQ" bidirectional
-			(at 156.21 81.28 0)
+			(at 156.21 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -927,7 +1083,7 @@
 			(uuid "ad2412c3-8162-4d81-9f2e-5e8fe85985a4")
 		)
 		(pin "USB_D-" bidirectional
-			(at 121.92 63.5 180)
+			(at 121.92 62.23 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -957,7 +1113,7 @@
 			(uuid "692fd4c1-fc6f-4aa2-8924-0311337f18ab")
 		)
 		(pin "SER_TX" output
-			(at 156.21 110.49 0)
+			(at 156.21 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -965,6 +1121,36 @@
 				(justify right)
 			)
 			(uuid "be14d3a4-c2fd-4841-8730-e82f52c9bcbb")
+		)
+		(pin "DQ_C" bidirectional
+			(at 156.21 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6a445713-95e1-46a7-badd-efc074accd7c")
+		)
+		(pin "SCL_C" output
+			(at 156.21 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8c115390-d6f5-47de-9781-cfa102311807")
+		)
+		(pin "SDA_C" bidirectional
+			(at 156.21 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "31855a4c-1e7f-4468-8685-17e738c9ced9")
 		)
 		(instances
 			(project "HALSER"
@@ -1005,7 +1191,7 @@
 			)
 		)
 		(pin "VIB" input
-			(at 207.01 120.65 180)
+			(at 207.01 119.38 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1035,7 +1221,7 @@
 			(uuid "6ec6ecb7-11b5-4f82-bd84-d87db94324b4")
 		)
 		(pin "iVOB" output
-			(at 222.25 120.65 0)
+			(at 222.25 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1083,7 +1269,7 @@
 			)
 		)
 		(pin "TX" input
-			(at 236.22 120.65 180)
+			(at 236.22 119.38 180)
 			(effects
 				(font
 					(size 1.27 1.27)

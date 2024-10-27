@@ -1211,7 +1211,7 @@
 		)
 		(uuid "90042e99-99c2-438b-b4f7-2f97ce025778")
 	)
-	(label "DQ_CONN"
+	(label "DQ_C"
 		(at 104.14 59.69 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1233,17 +1233,6 @@
 		)
 		(uuid "db685522-afd1-48c4-8871-1749230b072d")
 	)
-	(label "DQ_CONN"
-		(at 41.91 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "eb1285e5-0a8b-43e4-bc5e-c4d21140b80a")
-	)
 	(hierarchical_label "DQ"
 		(shape input)
 		(at 121.92 59.69 0)
@@ -1255,6 +1244,18 @@
 			(justify left)
 		)
 		(uuid "5705edbb-8e41-4b70-bb7f-421cf2cbcdaf")
+	)
+	(hierarchical_label "DQ_C"
+		(shape input)
+		(at 41.91 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cc71888c-5e98-4d7a-af54-f60ca743883b")
 	)
 	(hierarchical_label "DQ"
 		(shape input)
