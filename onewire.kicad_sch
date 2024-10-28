@@ -1222,7 +1222,7 @@
 		)
 		(uuid "b0d6a0eb-7ca8-4197-a6c4-5b1f7c2376b9")
 	)
-	(label "DQ_CONN"
+	(label "DQ_C"
 		(at 45.72 59.69 0)
 		(fields_autoplaced yes)
 		(effects

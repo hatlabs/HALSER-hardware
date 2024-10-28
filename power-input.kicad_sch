@@ -3913,7 +3913,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_CORRECTION" ""
+		(property "JLCPCB_CORRECTION" "5.715;0;180"
 			(at 44.45 53.34 0)
 			(effects
 				(font
@@ -6611,7 +6611,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6659,7 +6659,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C492427"
+		(property "LCSC" "C492401"
+			(at 157.48 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_CORRECTION" "0;1.27;90"
 			(at 157.48 137.16 0)
 			(effects
 				(font
@@ -6745,7 +6754,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_CORRECTION" ""
+		(property "JLCPCB_CORRECTION" "0;3.81;90"
 			(at 44.45 34.29 0)
 			(effects
 				(font
