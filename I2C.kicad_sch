@@ -5,10 +5,10 @@
 	(uuid "10924d01-5893-4e04-8ca8-4d82a6bb3aed")
 	(paper "A4")
 	(title_block
-		(title "Hat Labs Marine Engine & Tank interface (HALMET)")
-		(date "2024-01-18")
-		(rev "1.0.1")
-		(company "Hat Labs Ltd")
+		(title "Hat Labs Serial Interface Device (HALSER)")
+		(date "2024-11-20")
+		(rev "1.0.0-a1")
+		(company "Hat Labs oy")
 		(comment 1 "https://creativecommons.org/licenses/by-sa/4.0")
 		(comment 2 "To view a copy of this license, visit ")
 		(comment 3 "HALMET is licensed under CC BY-SA 4.0.")
@@ -1825,7 +1825,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 136.1948 116.84 0)
 			(effects
 				(font
@@ -2005,7 +2005,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 136.1948 96.52 0)
 			(effects
 				(font
@@ -2184,7 +2184,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 149.5552 96.52 0)
 			(effects
 				(font
@@ -2298,7 +2298,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 149.5552 116.84 0)
 			(effects
 				(font
@@ -2413,7 +2413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 136.1948 76.2 0)
 			(effects
 				(font
@@ -2592,7 +2592,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 149.5552 76.2 0)
 			(effects
 				(font
@@ -2705,7 +2705,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 83.82 49.022 90)
 			(effects
 				(font
@@ -2884,7 +2884,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 83.82 55.372 90)
 			(effects
 				(font
@@ -3063,7 +3063,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Ferrite_SMD_AKL:Ferrite_0805_2012Metric"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 142.24 66.802 90)
 			(effects
 				(font
@@ -3176,7 +3176,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Ferrite_SMD_AKL:Ferrite_0805_2012Metric"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 142.24 107.442 90)
 			(effects
 				(font
@@ -3289,7 +3289,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Ferrite_SMD_AKL:Ferrite_0805_2012Metric"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 142.24 87.122 90)
 			(effects
 				(font
@@ -3730,7 +3730,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0402_1005Metric"
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
 			(at 85.09 97.79 0)
 			(effects
 				(font
@@ -4029,7 +4029,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0402_1005Metric"
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
 			(at 63.5 97.79 0)
 			(effects
 				(font
@@ -4209,7 +4209,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0402_1005Metric"
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
 			(at 71.12 97.79 0)
 			(effects
 				(font

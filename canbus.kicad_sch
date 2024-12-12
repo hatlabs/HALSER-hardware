@@ -5,10 +5,10 @@
 	(uuid "ce1e6779-15c3-4fde-b5d9-4aa90e56b967")
 	(paper "A4")
 	(title_block
-		(title "Hat Labs Marine Engine & Tank interface (HALMET)")
-		(date "2024-01-18")
-		(rev "1.0.1")
-		(company "Hat Labs Ltd")
+		(title "Hat Labs Serial Interface Device (HALSER)")
+		(date "2024-11-20")
+		(rev "1.0.0-a1")
+		(company "Hat Labs oy")
 		(comment 1 "https://creativecommons.org/licenses/by-sa/4.0")
 		(comment 2 "To view a copy of this license, visit ")
 		(comment 3 "HALMET is licensed under CC BY-SA 4.0.")
@@ -2062,7 +2062,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 127.3048 99.06 0)
 			(effects
 				(font
@@ -2175,7 +2175,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Package_SO_AKL:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 134.62 123.19 0)
 			(effects
 				(font
@@ -2307,7 +2307,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 147.32 119.38 0)
 			(effects
 				(font
@@ -2553,7 +2553,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 189.23 101.6 0)
 			(effects
 				(font
@@ -2983,7 +2983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 83.82 120.65 0)
 			(effects
 				(font
@@ -3152,7 +3152,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 110.49 129.54 0)
 			(effects
 				(font
@@ -3394,7 +3394,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 88.9 120.65 0)
 			(effects
 				(font
