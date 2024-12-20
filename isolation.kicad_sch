@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Hat Labs Serial Interface Device (HALSER)")
-		(date "2024-11-20")
-		(rev "1.0.0-a1")
+		(date "2024-12-20")
+		(rev "1.0.0")
 		(company "Hat Labs oy")
 		(comment 1 "https://creativecommons.org/licenses/by-sa/4.0")
 		(comment 2 "To view a copy of this license, visit ")
@@ -3151,7 +3151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45ab99d7-ccd5-4e9e-bb79-63ff67627901")
-		(property "Reference" "#PWR0911"
+		(property "Reference" "#PWR0910"
 			(at 137.16 53.34 0)
 			(effects
 				(font
@@ -3201,7 +3201,7 @@
 		(instances
 			(project ""
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/2a37b9a7-9486-444f-9ef1-0d0aa57a298a"
-					(reference "#PWR0911")
+					(reference "#PWR0910")
 					(unit 1)
 				)
 			)
@@ -3403,7 +3403,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d159c82-6a47-43ff-be1e-b4b092d3753d")
-		(property "Reference" "#PWR0910"
+		(property "Reference" "#PWR0911"
 			(at 151.13 76.2 0)
 			(effects
 				(font
@@ -3453,7 +3453,7 @@
 		(instances
 			(project "HALMET"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/2a37b9a7-9486-444f-9ef1-0d0aa57a298a"
-					(reference "#PWR0910")
+					(reference "#PWR0911")
 					(unit 1)
 				)
 			)
@@ -3947,7 +3947,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b123f713-83cc-4bb4-a781-e253209a2450")
-		(property "Reference" "#PWR0913"
+		(property "Reference" "#PWR0912"
 			(at 167.64 76.2 0)
 			(effects
 				(font
@@ -3997,7 +3997,7 @@
 		(instances
 			(project "HALMET"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/2a37b9a7-9486-444f-9ef1-0d0aa57a298a"
-					(reference "#PWR0913")
+					(reference "#PWR0912")
 					(unit 1)
 				)
 			)
@@ -4525,7 +4525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2d9d1c2-ffa1-4964-b52e-2c1a5a937f60")
-		(property "Reference" "#PWR0915"
+		(property "Reference" "#PWR0913"
 			(at 200.66 59.69 0)
 			(effects
 				(font
@@ -4575,7 +4575,7 @@
 		(instances
 			(project "HALMET"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/2a37b9a7-9486-444f-9ef1-0d0aa57a298a"
-					(reference "#PWR0915")
+					(reference "#PWR0913")
 					(unit 1)
 				)
 			)

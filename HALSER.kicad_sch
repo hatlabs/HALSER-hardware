@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Hat Labs Serial Interface Device (HALSER)")
-		(date "2024-11-20")
-		(rev "1.0.0-a1")
+		(date "2024-12-20")
+		(rev "1.0.0")
 		(company "Hat Labs oy")
 		(comment 1 "https://creativecommons.org/licenses/by-sa/4.0")
 		(comment 2 "To view a copy of this license, visit ")

@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Hat Labs Serial Interface Device (HALSER)")
-		(date "2024-11-20")
-		(rev "1.0.0-a1")
+		(date "2024-12-20")
+		(rev "1.0.0")
 		(company "Hat Labs oy")
 		(comment 1 "https://creativecommons.org/licenses/by-sa/4.0")
 		(comment 2 "To view a copy of this license, visit ")
@@ -2280,7 +2280,7 @@
 		)
 		(stroke
 			(width 0)
-			(type default)
+			(type dash)
 		)
 		(uuid "2bfbce2b-2cf6-413e-809b-b69cf8de8e9a")
 	)
@@ -2300,7 +2300,7 @@
 		)
 		(stroke
 			(width 0)
-			(type default)
+			(type dash)
 		)
 		(uuid "2ffa18b0-c4a8-43e6-bcec-bf16677fe239")
 	)
@@ -2650,7 +2650,7 @@
 		)
 		(stroke
 			(width 0)
-			(type default)
+			(type dash)
 		)
 		(uuid "a2046139-f264-470d-9ce0-97971b99b57b")
 	)
@@ -2820,7 +2820,7 @@
 		)
 		(stroke
 			(width 0)
-			(type default)
+			(type dash)
 		)
 		(uuid "c84a10f3-ac09-45cc-a71b-f9d09fdb1325")
 	)
@@ -2975,17 +2975,6 @@
 		)
 		(uuid "1b605208-af7c-4c9c-85c0-1ee48363e4db")
 	)
-	(text "Converter IC voltage range 4.5-50V,\nhowever, Vin needs to be a bit higher\nto give some headroom for the PTC\nfuse."
-		(exclude_from_sim no)
-		(at 180.848 85.344 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1bb19e3c-e395-40ec-8b0e-6ff83cbf1ac9")
-	)
 	(text "Prevent feeding Vin to USB"
 		(exclude_from_sim no)
 		(at 26.924 76.454 0)
@@ -3008,7 +2997,7 @@
 		)
 		(uuid "f40efcca-33eb-4857-b647-dae2a4b8194a")
 	)
-	(label "VIN"
+	(label "VIN_BUCK"
 		(at 146.05 102.87 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3051,17 +3040,6 @@
 			(justify left bottom)
 		)
 		(uuid "3a4847d5-73a4-4a1d-8a78-d21df637409f")
-	)
-	(label "Vin"
-		(at 58.42 53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3e1e779a-21b9-40df-9b80-9c0907e0f399")
 	)
 	(label "SW"
 		(at 198.12 107.95 180)
@@ -3162,7 +3140,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ca62d53")
-		(property "Reference" "#PWR0706"
+		(property "Reference" "#PWR0707"
 			(at 156.21 116.84 0)
 			(effects
 				(font
@@ -3212,7 +3190,7 @@
 		(instances
 			(project "SH-ESP32"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005f6faf6e"
-					(reference "#PWR0706")
+					(reference "#PWR0707")
 					(unit 1)
 				)
 			)
@@ -3357,7 +3335,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ca62dbe")
-		(property "Reference" "#PWR0711"
+		(property "Reference" "#PWR0712"
 			(at 250.19 121.92 0)
 			(effects
 				(font
@@ -3407,7 +3385,7 @@
 		(instances
 			(project "SH-ESP32"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005f6faf6e"
-					(reference "#PWR0711")
+					(reference "#PWR0712")
 					(unit 1)
 				)
 			)
@@ -3487,7 +3465,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ca8a650")
-		(property "Reference" "#PWR0708"
+		(property "Reference" "#PWR0709"
 			(at 185.42 128.27 0)
 			(effects
 				(font
@@ -3537,7 +3515,7 @@
 		(instances
 			(project "SH-ESP32"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005f6faf6e"
-					(reference "#PWR0708")
+					(reference "#PWR0709")
 					(unit 1)
 				)
 			)
@@ -3795,7 +3773,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f80acbb")
-		(property "Reference" "#PWR0712"
+		(property "Reference" "#PWR0713"
 			(at 261.62 111.76 0)
 			(effects
 				(font
@@ -3845,7 +3823,7 @@
 		(instances
 			(project "SH-ESP32"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005f6faf6e"
-					(reference "#PWR0712")
+					(reference "#PWR0713")
 					(unit 1)
 				)
 			)
@@ -3861,7 +3839,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f8b6c12")
-		(property "Reference" "J701"
+		(property "Reference" "J702"
 			(at 44.196 44.704 0)
 			(effects
 				(font
@@ -3964,7 +3942,7 @@
 		(instances
 			(project "SH-ESP32"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005f6faf6e"
-					(reference "J701")
+					(reference "J702")
 					(unit 1)
 				)
 			)
@@ -5385,7 +5363,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000611bbc28")
-		(property "Reference" "#PWR0709"
+		(property "Reference" "#PWR0710"
 			(at 222.25 133.35 0)
 			(effects
 				(font
@@ -5435,7 +5413,7 @@
 		(instances
 			(project "SH-ESP32"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005f6faf6e"
-					(reference "#PWR0709")
+					(reference "#PWR0710")
 					(unit 1)
 				)
 			)
@@ -5821,7 +5799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f692307-93c9-4813-a7d0-2ef946d10213")
-		(property "Reference" "#PWR0713"
+		(property "Reference" "#PWR0706"
 			(at 149.86 147.32 0)
 			(effects
 				(font
@@ -5871,7 +5849,7 @@
 		(instances
 			(project ""
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005f6faf6e"
-					(reference "#PWR0713")
+					(reference "#PWR0706")
 					(unit 1)
 				)
 			)
@@ -5886,7 +5864,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5595c6ba-5b74-4b6e-8a24-9cf1c23dc0c9")
-		(property "Reference" "#PWR0710"
+		(property "Reference" "#PWR0711"
 			(at 243.84 121.92 0)
 			(effects
 				(font
@@ -5936,7 +5914,7 @@
 		(instances
 			(project "SH-ESP32"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005f6faf6e"
-					(reference "#PWR0710")
+					(reference "#PWR0711")
 					(unit 1)
 				)
 			)
@@ -6187,7 +6165,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af899074-fb57-4786-a5b7-4643a5716cd2")
-		(property "Reference" "#PWR0707"
+		(property "Reference" "#PWR0708"
 			(at 170.18 125.73 0)
 			(effects
 				(font
@@ -6237,7 +6215,7 @@
 		(instances
 			(project "SH-ESP32"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005f6faf6e"
-					(reference "#PWR0707")
+					(reference "#PWR0708")
 					(unit 1)
 				)
 			)
@@ -6616,7 +6594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7530882-db6b-4e06-b8c6-2ba9ec6785b2")
-		(property "Reference" "J702"
+		(property "Reference" "J703"
 			(at 157.48 128.27 0)
 			(effects
 				(font
@@ -6686,7 +6664,7 @@
 		(instances
 			(project ""
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005f6faf6e"
-					(reference "J702")
+					(reference "J703")
 					(unit 1)
 				)
 			)
@@ -6702,7 +6680,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f63ff415-6c68-493b-8afe-9f68f7fada10")
-		(property "Reference" "J703"
+		(property "Reference" "J701"
 			(at 44.196 25.654 0)
 			(effects
 				(font
@@ -6805,7 +6783,7 @@
 		(instances
 			(project "HALSER"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005f6faf6e"
-					(reference "J703")
+					(reference "J701")
 					(unit 1)
 				)
 			)

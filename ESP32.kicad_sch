@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Hat Labs Serial Interface Device (HALSER)")
-		(date "2024-11-20")
-		(rev "1.0.0-a1")
+		(date "2024-12-20")
+		(rev "1.0.0")
 		(company "Hat Labs oy")
 		(comment 1 "https://creativecommons.org/licenses/by-sa/4.0")
 		(comment 2 "To view a copy of this license, visit ")
@@ -1227,6 +1227,184 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "HALSER:AH1902"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U302"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "KTH1601TL-SF5"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-553"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" " C962140"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Notes" "Alternatives: AH1902, SL1605TL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB_CORRECTION" "0;0;270"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AH1902_1_1"
+				(rectangle
+					(start -6.35 6.35)
+					(end 6.35 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin no_connect line
+					(at -8.89 -2.54 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -8.89 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 8.89 -2.54 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8.89 2.54 0)
+					(length 2.54)
+					(name "Vdd"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 2.54 180)
+					(length 2.54)
+					(name "OUTPUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2618,159 +2796,6 @@
 						)
 					)
 					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "SH-wg:AH1902"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "AH1902"
-				(at 0 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AH1902_0_1"
-				(rectangle
-					(start -6.35 6.35)
-					(end 6.35 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "AH1902_1_1"
-				(pin no_connect line
-					(at -8.89 -2.54 0)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -8.89 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 8.89 -2.54 180)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -8.89 2.54 0)
-					(length 2.54)
-					(name "Vdd"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 8.89 2.54 180)
-					(length 2.54)
-					(name "OUTPUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4274,7 +4299,7 @@
 		)
 		(uuid "fecbed5c-5c83-42bb-b700-12a6525b882c")
 	)
-	(text "AH1902 hall effect sensor\nfor contactless reset functionality"
+	(text "Hall effect sensor for contactless\nrestart and reset functionality"
 		(exclude_from_sim no)
 		(at 247.65 91.44 0)
 		(effects
@@ -4813,7 +4838,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f9211fb")
-		(property "Reference" "C303"
+		(property "Reference" "C301"
 			(at 80.391 90.2716 0)
 			(effects
 				(font
@@ -4912,7 +4937,7 @@
 		(instances
 			(project "HALMET"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc3847d"
-					(reference "C303")
+					(reference "C301")
 					(unit 1)
 				)
 			)
@@ -4927,7 +4952,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f922a7a")
-		(property "Reference" "#PWR0305"
+		(property "Reference" "#PWR0306"
 			(at 77.47 101.6 0)
 			(effects
 				(font
@@ -4977,7 +5002,7 @@
 		(instances
 			(project "HALMET"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc3847d"
-					(reference "#PWR0305")
+					(reference "#PWR0306")
 					(unit 1)
 				)
 			)
@@ -4992,7 +5017,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005fc47e19")
-		(property "Reference" "#PWR0311"
+		(property "Reference" "#PWR0312"
 			(at 144.78 36.83 0)
 			(effects
 				(font
@@ -5042,7 +5067,7 @@
 		(instances
 			(project "HALMET"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc3847d"
-					(reference "#PWR0311")
+					(reference "#PWR0312")
 					(unit 1)
 				)
 			)
@@ -5057,7 +5082,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005fc47e1f")
-		(property "Reference" "#PWR0312"
+		(property "Reference" "#PWR0313"
 			(at 144.78 109.22 0)
 			(effects
 				(font
@@ -5107,7 +5132,7 @@
 		(instances
 			(project "HALMET"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc3847d"
-					(reference "#PWR0312")
+					(reference "#PWR0313")
 					(unit 1)
 				)
 			)
@@ -5122,7 +5147,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005fc47e7f")
-		(property "Reference" "C304"
+		(property "Reference" "C302"
 			(at 124.079 40.5384 0)
 			(effects
 				(font
@@ -5230,7 +5255,7 @@
 		(instances
 			(project "HALMET"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc3847d"
-					(reference "C304")
+					(reference "C302")
 					(unit 1)
 				)
 			)
@@ -5245,7 +5270,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005fc47e8a")
-		(property "Reference" "#PWR0308"
+		(property "Reference" "#PWR0309"
 			(at 127 49.53 0)
 			(effects
 				(font
@@ -5295,7 +5320,7 @@
 		(instances
 			(project "HALMET"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc3847d"
-					(reference "#PWR0308")
+					(reference "#PWR0309")
 					(unit 1)
 				)
 			)
@@ -5310,7 +5335,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005fc4aff8")
-		(property "Reference" "R302"
+		(property "Reference" "R304"
 			(at 79.248 81.3816 0)
 			(effects
 				(font
@@ -5409,7 +5434,7 @@
 		(instances
 			(project "HALMET"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc3847d"
-					(reference "R302")
+					(reference "R304")
 					(unit 1)
 				)
 			)
@@ -5424,7 +5449,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005fc4b011")
-		(property "Reference" "#PWR0304"
+		(property "Reference" "#PWR0305"
 			(at 77.47 81.28 0)
 			(effects
 				(font
@@ -5474,7 +5499,7 @@
 		(instances
 			(project "HALMET"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc3847d"
-					(reference "#PWR0304")
+					(reference "#PWR0305")
 					(unit 1)
 				)
 			)
@@ -5490,7 +5515,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005fcba464")
-		(property "Reference" "#PWR0320"
+		(property "Reference" "#PWR0325"
 			(at 256.54 60.96 0)
 			(effects
 				(font
@@ -5540,7 +5565,7 @@
 		(instances
 			(project "HALMET"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc3847d"
-					(reference "#PWR0320")
+					(reference "#PWR0325")
 					(unit 1)
 				)
 			)
@@ -5556,7 +5581,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005fd23f98")
-		(property "Reference" "#PWR0319"
+		(property "Reference" "#PWR0326"
 			(at 261.62 54.61 0)
 			(effects
 				(font
@@ -5606,7 +5631,7 @@
 		(instances
 			(project "HALMET"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc3847d"
-					(reference "#PWR0319")
+					(reference "#PWR0326")
 					(unit 1)
 				)
 			)
@@ -5621,7 +5646,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005fd2aebe")
-		(property "Reference" "#PWR0316"
+		(property "Reference" "#PWR0321"
 			(at 229.87 31.75 0)
 			(effects
 				(font
@@ -5671,7 +5696,7 @@
 		(instances
 			(project "HALMET"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc3847d"
-					(reference "#PWR0316")
+					(reference "#PWR0321")
 					(unit 1)
 				)
 			)
@@ -5686,7 +5711,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005fd33e01")
-		(property "Reference" "#PWR0317"
+		(property "Reference" "#PWR0315"
 			(at 218.44 36.83 0)
 			(effects
 				(font
@@ -5736,7 +5761,7 @@
 		(instances
 			(project "HALMET"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc3847d"
-					(reference "#PWR0317")
+					(reference "#PWR0315")
 					(unit 1)
 				)
 			)
@@ -5751,7 +5776,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005fe404c1")
-		(property "Reference" "R301"
+		(property "Reference" "R303"
 			(at 79.248 58.5216 0)
 			(effects
 				(font
@@ -5850,7 +5875,7 @@
 		(instances
 			(project "HALMET"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc3847d"
-					(reference "R301")
+					(reference "R303")
 					(unit 1)
 				)
 			)
@@ -5865,7 +5890,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005fe404c7")
-		(property "Reference" "#PWR0303"
+		(property "Reference" "#PWR0304"
 			(at 77.47 58.42 0)
 			(effects
 				(font
@@ -5915,7 +5940,7 @@
 		(instances
 			(project "HALMET"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc3847d"
-					(reference "#PWR0303")
+					(reference "#PWR0304")
 					(unit 1)
 				)
 			)
@@ -5930,7 +5955,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "051bf9e1-e5cf-4336-a59d-de9caaed2ff3")
-		(property "Reference" "R303"
+		(property "Reference" "R305"
 			(at 119.888 153.7716 0)
 			(effects
 				(font
@@ -6029,7 +6054,7 @@
 		(instances
 			(project "HALSER"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc3847d"
-					(reference "R303")
+					(reference "R305")
 					(unit 1)
 				)
 			)
@@ -6150,7 +6175,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "15a901cd-0492-4277-a6c0-b2614bd6412d")
-		(property "Reference" "#PWR0321"
+		(property "Reference" "#PWR0324"
 			(at 256.54 49.53 0)
 			(effects
 				(font
@@ -6200,7 +6225,7 @@
 		(instances
 			(project "HALSER"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc3847d"
-					(reference "#PWR0321")
+					(reference "#PWR0324")
 					(unit 1)
 				)
 			)
@@ -6215,7 +6240,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "262d5024-585b-4f7d-840d-5ccb0fd1cf76")
-		(property "Reference" "#PWR0307"
+		(property "Reference" "#PWR0308"
 			(at 118.11 179.07 0)
 			(effects
 				(font
@@ -6265,7 +6290,7 @@
 		(instances
 			(project "HALSER"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc3847d"
-					(reference "#PWR0307")
+					(reference "#PWR0308")
 					(unit 1)
 				)
 			)
@@ -6280,7 +6305,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2630bb78-35c3-4444-b4a9-7dcd15b74407")
-		(property "Reference" "C305"
+		(property "Reference" "C303"
 			(at 138.43 38.0999 0)
 			(effects
 				(font
@@ -6370,7 +6395,7 @@
 		(instances
 			(project ""
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc3847d"
-					(reference "C305")
+					(reference "C303")
 					(unit 1)
 				)
 			)
@@ -6385,7 +6410,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2885b182-b8e2-447f-ac36-32ba601ae20e")
-		(property "Reference" "R307"
+		(property "Reference" "R302"
 			(at 62.738 58.5216 0)
 			(effects
 				(font
@@ -6484,7 +6509,7 @@
 		(instances
 			(project "HALSER"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc3847d"
-					(reference "R307")
+					(reference "R302")
 					(unit 1)
 				)
 			)
@@ -6500,7 +6525,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "380d5249-c72b-4269-88b7-70efcc7f427f")
-		(property "Reference" "C306"
+		(property "Reference" "C304"
 			(at 214.63 88.9 0)
 			(effects
 				(font
@@ -6563,7 +6588,7 @@
 		(instances
 			(project "HALSER"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc3847d"
-					(reference "C306")
+					(reference "C304")
 					(unit 1)
 				)
 			)
@@ -6578,7 +6603,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a3503d6-3d5a-4896-9bcf-923be32053e0")
-		(property "Reference" "#PWR0323"
+		(property "Reference" "#PWR0317"
 			(at 222.25 77.47 0)
 			(effects
 				(font
@@ -6628,7 +6653,7 @@
 		(instances
 			(project "HALSER"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc3847d"
-					(reference "#PWR0323")
+					(reference "#PWR0317")
 					(unit 1)
 				)
 			)
@@ -6757,7 +6782,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "523a6192-1e2a-4781-aff9-de0b15a0c988")
-		(property "Reference" "#PWR0322"
+		(property "Reference" "#PWR0316"
 			(at 219.71 52.07 0)
 			(effects
 				(font
@@ -6807,7 +6832,7 @@
 		(instances
 			(project "HALSER"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc3847d"
-					(reference "#PWR0322")
+					(reference "#PWR0316")
 					(unit 1)
 				)
 			)
@@ -7202,7 +7227,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78593ae8-c6c1-4e2c-8728-3adf4a8fe362")
-		(property "Reference" "#PWR0314"
+		(property "Reference" "#PWR0301"
 			(at 43.18 153.67 0)
 			(effects
 				(font
@@ -7252,14 +7277,14 @@
 		(instances
 			(project "HALSER"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc3847d"
-					(reference "#PWR0314")
+					(reference "#PWR0301")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SH-wg:AH1902")
+		(lib_id "HALSER:AH1902")
 		(at 236.22 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7371,7 +7396,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "809d5c00-f865-423e-8094-be0d6444ef2e")
-		(property "Reference" "#PWR0324"
+		(property "Reference" "#PWR0318"
 			(at 222.25 101.6 0)
 			(effects
 				(font
@@ -7421,7 +7446,7 @@
 		(instances
 			(project "HALSER"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc3847d"
-					(reference "#PWR0324")
+					(reference "#PWR0318")
 					(unit 1)
 				)
 			)
@@ -7436,7 +7461,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "81525e01-02aa-4ae2-9314-175e67fc11e8")
-		(property "Reference" "#PWR0315"
+		(property "Reference" "#PWR0302"
 			(at 43.18 168.91 0)
 			(effects
 				(font
@@ -7486,7 +7511,7 @@
 		(instances
 			(project "HALSER"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc3847d"
-					(reference "#PWR0315")
+					(reference "#PWR0302")
 					(unit 1)
 				)
 			)
@@ -7501,7 +7526,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85a28d67-3873-4f33-a1d7-faf3c20bfbc9")
-		(property "Reference" "#PWR0326"
+		(property "Reference" "#PWR0303"
 			(at 60.96 58.42 0)
 			(effects
 				(font
@@ -7551,7 +7576,7 @@
 		(instances
 			(project "HALSER"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc3847d"
-					(reference "#PWR0326")
+					(reference "#PWR0303")
 					(unit 1)
 				)
 			)
@@ -7566,7 +7591,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "885c2319-e453-4f69-a24c-b40993a9eb33")
-		(property "Reference" "#PWR0325"
+		(property "Reference" "#PWR0322"
 			(at 236.22 101.6 0)
 			(effects
 				(font
@@ -7616,7 +7641,7 @@
 		(instances
 			(project "HALSER"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc3847d"
-					(reference "#PWR0325")
+					(reference "#PWR0322")
 					(unit 1)
 				)
 			)
@@ -7631,7 +7656,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "936d1b4e-1508-4a8c-a0a4-645b9c499c9d")
-		(property "Reference" "C301"
+		(property "Reference" "C305"
 			(at 236.22 127.5334 90)
 			(effects
 				(font
@@ -7728,7 +7753,7 @@
 		(instances
 			(project "HALSER"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc3847d"
-					(reference "C301")
+					(reference "C305")
 					(unit 1)
 				)
 			)
@@ -7743,7 +7768,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9769fca3-b433-4281-a3a5-6673972036c2")
-		(property "Reference" "#PWR0301"
+		(property "Reference" "#PWR0319"
 			(at 227.33 142.24 0)
 			(effects
 				(font
@@ -7793,7 +7818,7 @@
 		(instances
 			(project "HALSER"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc3847d"
-					(reference "#PWR0301")
+					(reference "#PWR0319")
 					(unit 1)
 				)
 			)
@@ -7808,7 +7833,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a0f6c5c-a3c7-4704-924e-5dc16325516f")
-		(property "Reference" "C302"
+		(property "Reference" "C306"
 			(at 236.22 149.1234 90)
 			(effects
 				(font
@@ -7905,7 +7930,7 @@
 		(instances
 			(project "HALSER"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc3847d"
-					(reference "C302")
+					(reference "C306")
 					(unit 1)
 				)
 			)
@@ -7921,7 +7946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9baa0b8f-dd44-4927-8bd1-144af2e0564c")
-		(property "Reference" "R306"
+		(property "Reference" "R301"
 			(at 35.56 148.59 90)
 			(effects
 				(font
@@ -8018,7 +8043,7 @@
 		(instances
 			(project "HALSER"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc3847d"
-					(reference "R306")
+					(reference "R301")
 					(unit 1)
 				)
 			)
@@ -8033,7 +8058,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b01381a8-551f-499e-95b9-893510d41c4d")
-		(property "Reference" "#PWR0306"
+		(property "Reference" "#PWR0307"
 			(at 118.11 149.86 0)
 			(effects
 				(font
@@ -8083,7 +8108,7 @@
 		(instances
 			(project "HALSER"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc3847d"
-					(reference "#PWR0306")
+					(reference "#PWR0307")
 					(unit 1)
 				)
 			)
@@ -8098,7 +8123,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b22c3786-29b0-48c4-91d3-0473ec0e1240")
-		(property "Reference" "#PWR0302"
+		(property "Reference" "#PWR0320"
 			(at 227.33 163.83 0)
 			(effects
 				(font
@@ -8148,7 +8173,7 @@
 		(instances
 			(project "HALSER"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc3847d"
-					(reference "#PWR0302")
+					(reference "#PWR0320")
 					(unit 1)
 				)
 			)
@@ -8548,7 +8573,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1452ca2-17b1-442e-8517-9c2206ac1101")
-		(property "Reference" "#PWR0310"
+		(property "Reference" "#PWR0311"
 			(at 134.62 49.53 0)
 			(effects
 				(font
@@ -8598,7 +8623,7 @@
 		(instances
 			(project "HALSER"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc3847d"
-					(reference "#PWR0310")
+					(reference "#PWR0311")
 					(unit 1)
 				)
 			)
@@ -8613,7 +8638,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e6289e52-a20c-4887-b071-c0a9ab7246b6")
-		(property "Reference" "#PWR0309"
+		(property "Reference" "#PWR0310"
 			(at 133.35 149.86 0)
 			(effects
 				(font
@@ -8663,7 +8688,7 @@
 		(instances
 			(project "HALSER"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc3847d"
-					(reference "#PWR0309")
+					(reference "#PWR0310")
 					(unit 1)
 				)
 			)
@@ -8678,7 +8703,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e6e92f66-f89d-455f-ae60-58e46ce9d6e8")
-		(property "Reference" "R304"
+		(property "Reference" "R306"
 			(at 135.128 163.9316 0)
 			(effects
 				(font
@@ -8768,7 +8793,7 @@
 		(instances
 			(project "HALSER"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc3847d"
-					(reference "R304")
+					(reference "R306")
 					(unit 1)
 				)
 			)
@@ -8784,7 +8809,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e99148cf-cbfa-40b6-b1a3-917412eb1d08")
-		(property "Reference" "#PWR0318"
+		(property "Reference" "#PWR0323"
 			(at 256.54 41.91 0)
 			(effects
 				(font
@@ -8834,7 +8859,7 @@
 		(instances
 			(project "HALSER"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc3847d"
-					(reference "#PWR0318")
+					(reference "#PWR0323")
 					(unit 1)
 				)
 			)
@@ -8970,7 +8995,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb6d8a2b-0228-4e95-945f-a60e5f37d06a")
-		(property "Reference" "#PWR0313"
+		(property "Reference" "#PWR0314"
 			(at 148.59 149.86 0)
 			(effects
 				(font
@@ -9020,7 +9045,7 @@
 		(instances
 			(project "HALSER"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc3847d"
-					(reference "#PWR0313")
+					(reference "#PWR0314")
 					(unit 1)
 				)
 			)
@@ -9035,7 +9060,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fbc0673d-c030-48e3-9d40-49cea0a1e1f7")
-		(property "Reference" "R305"
+		(property "Reference" "R307"
 			(at 150.368 153.7716 0)
 			(effects
 				(font
@@ -9125,7 +9150,7 @@
 		(instances
 			(project "HALSER"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc3847d"
-					(reference "R305")
+					(reference "R307")
 					(unit 1)
 				)
 			)

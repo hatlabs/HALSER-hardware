@@ -1130,6 +1130,12 @@
           "label": "Sim.Pins",
           "name": "Sim.Pins",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field9",
+          "name": "Field9",
+          "show": false
         }
       ],
       "filter_string": "",

@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Hat Labs Serial Interface Device (HALSER)")
-		(date "2024-11-20")
-		(rev "1.0.0-a1")
+		(date "2024-12-20")
+		(rev "1.0.0")
 		(company "Hat Labs oy")
 		(comment 1 "https://creativecommons.org/licenses/by-sa/4.0")
 		(comment 2 "To view a copy of this license, visit ")
@@ -3220,7 +3220,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e821bed0-afed-46a4-9e4f-1bee6ee9bfc8")
-		(property "Reference" "J802"
+		(property "Reference" "J801"
 			(at 52.07 36.83 0)
 			(effects
 				(font
@@ -3335,7 +3335,7 @@
 		(instances
 			(project ""
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005f89c30a"
-					(reference "J802")
+					(reference "J801")
 					(unit 1)
 				)
 			)
